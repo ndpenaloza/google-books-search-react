@@ -23,17 +23,17 @@ function Search() {
         <Navbar/>
         <Hero/>
         <div className='container'>
-        <div className="row">
-          <div className="col s12">
-            <h5 className='blue-grey-text darken-1 left-align'>Search Book:</h5>
-            <div className="input-field col s12">
-              <input id="book-searcg" type="text" className="validate"onChange={handleInputChange}/>
-              <label for='book-search'>Book</label>
-              <a className="waves-effect waves-light btn left-align blue-grey darken-1" href='#' onClick={handleFormSubmit}>Search</a>
+          <div className="row">
+            <div className="col s12">
+              <h5 className='blue-grey-text darken-1 left-align'>Search Book:</h5>
+              <div className="input-field col s12">
+                <input id="book-searcg" type="text" className="validate"onChange={handleInputChange}/>
+                <label for='book-search'>Book</label>
+                <a className="waves-effect waves-light btn left-align blue-grey darken-1" href='#' onClick={handleFormSubmit}>Search</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
         <BookResults/>
       </div>
     )
