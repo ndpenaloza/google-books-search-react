@@ -39,3 +39,6 @@ mongoose.connect(
 app.listen(PORT, () => {
   console.log(`🌎 ==> Super Fantastisch!! API server now on port ${PORT}!`);
 });
+
+require('if-env').config()
+console.log(process.env)
