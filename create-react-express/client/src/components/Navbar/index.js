@@ -4,11 +4,13 @@ import M from 'materialize-css'
 
 class Navbar extends Component {
 
-  componentDidMount() {
-    M.Sidenav.init(document.getElementById('sidenav'), {edge: 'right'});
-  }
+  // componentDidMount() {
+  //     var elems = document.querySelectorAll('.sidenav');
+  //     var instances = M.Sidenav.init(elems, options);
+  //   };
+  // }
 
-  render () {
+  render() {
     return(
       <div>
         <nav>
